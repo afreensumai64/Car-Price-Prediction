@@ -1,4 +1,4 @@
-# CodeAlpha_Car_Price_Prediction
+# 🚗 Car Price Prediction using Machine Learning
 
 ## 📌 Project Overview
 This project aims to predict the selling price of used cars based on various features such as year, fuel type, transmission, and kilometers driven. Machine learning algorithms are used to build an accurate regression model for price prediction.
