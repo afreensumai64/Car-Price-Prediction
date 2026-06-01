@@ -1,102 +1,65 @@
-# 🚗 Car Price Prediction using Machine Learning
+#🚗 Car Price Prediction Using Machine Learning
 
-## 📌 Project Overview
-This project aims to predict the selling price of used cars based on various features such as year, fuel type, transmission, and kilometers driven. Machine learning algorithms are used to build an accurate regression model for price prediction.
+## Overview
 
----
+This project predicts used car selling prices using machine learning techniques. The dataset contains over 15,000 vehicle records with features such as vehicle age, fuel type, transmission type, engine capacity, mileage, maximum power, and brand information.
 
-## 🎯 Objectives
-- Analyze used car data and identify important features
-- Perform data preprocessing and cleaning
-- Build a machine learning model for price prediction
-- Evaluate model performance using regression metrics
-- Understand factors influencing car prices
+Dataset: :contentReference[oaicite:0]{index=0}
 
----
+## Dataset
 
-## 🛠️ Technologies Used
+- Source: CarDekho Used Car Dataset
+- Records: 15,000+
+- Target Variable: Selling Price
+
+## Project Workflow
+
+1. Data Cleaning
+2. Exploratory Data Analysis (EDA)
+3. Feature Engineering
+4. Data Preprocessing
+5. Model Training
+6. Model Comparison
+7. Feature Importance Analysis
+
+## Models Used
+
+- Linear Regression
+- Ridge Regression
+- Lasso Regression
+- Random Forest Regressor
+- XGBoost Regressor
+
+## Results
+
+| Model | R² Score |
+|---------|---------:|
+| Linear Regression | 0.8918 |
+| Ridge Regression | 0.8918 |
+| Lasso Regression | 0.8919 |
+| Random Forest | 0.9339 |
+| XGBoost | 0.9406 |
+
+Best Model: **XGBoost Regressor**
+
+## Key Findings
+
+- Maximum power is the most important factor affecting car price.
+- Vehicle age has a strong impact on resale value.
+- Engine capacity positively influences selling price.
+- Premium brands generally retain higher value.
+- Petrol and Diesel vehicles dominate the dataset.
+
+## Technologies Used
+
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
 - Seaborn
+- Scikit-Learn
+- XGBoost
 
----
+## Conclusion
 
-## 📂 Dataset
-This project uses the **Car Price Prediction (Used Cars)** dataset from Kaggle.
-
-🔗 [Download Dataset](https://www.kaggle.com/datasets/vijayaadithyanvg/car-price-predictionused-cars)
-
-The dataset contains information about used cars including features like:
-- Car Name
-- Year
-- Selling Price
-- Present Price
-- Kilometers Driven
-- Fuel Type
-- Transmission
-- Owner Type
-
-👉 These features are used to train a regression model for predicting car prices :contentReference[oaicite:0]{index=0}
-
----
-
-## 🔍 Key Steps
-1. Data Loading and Inspection  
-2. Data Cleaning and Preprocessing  
-3. Exploratory Data Analysis (EDA)  
-4. Feature Encoding and Selection  
-5. Model Training (Linear Regression / Random Forest)  
-6. Model Evaluation  
-7. Price Prediction  
-
----
-
-## 📊 Exploratory Data Analysis
-- Visualized price distribution  
-- Analyzed relationship between year and price  
-- Studied impact of fuel type and transmission  
-- Observed effect of kilometers driven on price  
-
----
-
-## 🤖 Machine Learning Models
-- Linear Regression  
-- Random Forest Regressor  
-
-The dataset is split into training and testing sets to evaluate performance.
-
----
-
-## 📈 Model Evaluation
-- Mean Absolute Error (MAE)  
-- Mean Squared Error (MSE)  
-- R² Score  
-
----
-
-## 💡 Key Insights
-- Newer cars tend to have higher resale value  
-- Cars with lower mileage have better pricing  
-- Fuel type and transmission impact price significantly  
-- Random Forest provides better accuracy than Linear Regression  
-
----
-
-## 📌 Conclusion
-This project demonstrates how machine learning can be applied to predict real-world values like used car prices using structured data.
-
----
-
-## 🚀 Future Improvements
-- Use advanced models like XGBoost  
-- Perform hyperparameter tuning  
-- Deploy model using Streamlit  
-- Use larger datasets for better accuracy  
-
----
-
-## 👩‍💻 Author
-Sumaiya Afreen
+A machine learning model was developed to predict used car prices using vehicle characteristics. Among all models tested, XGBoost achieved the best performance with an R² score of 0.9406.
