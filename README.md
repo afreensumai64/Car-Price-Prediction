@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project predicts used car selling prices using machine learning techniques. The dataset contains over 15,000 vehicle records with features such as vehicle age, fuel type, transmission type, engine capacity, mileage, maximum power, and brand information.
+This project predicts used car selling prices using machine learning techniques. The dataset contains over 10,000 vehicle records with features such as vehicle age, fuel type, transmission type, engine capacity, mileage, maximum power, and brand information.
 
 Click here for:
 [Dataset Link](https://www.kaggle.com/datasets/manishkr1754/cardekho-used-car-data/data)
@@ -10,7 +10,7 @@ Click here for:
 ## Dataset
 
 - Source: CarDekho Used Car Dataset
-- Records: 15,000+
+- Records: 10,000+
 - Target Variable: Selling Price
 
 ## Project Workflow
